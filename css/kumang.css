@@ -1,0 +1,72 @@
+.ava-pengantin {
+  border-radius: 50%;
+}
+
+.icon-timer {
+  width: 50%;
+  height: 50%;
+  border-radius: 75%;
+}
+
+section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.timer {
+  margin-bottom: 80px;
+}
+
+header {
+  background-image: url('../img/banner.jpg');
+  color: white;
+}
+
+.testimoni {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.testi-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.img-testimoni
+{
+  width: 64px;
+  height: 64px;
+}
+
+.testi-user
+{
+  width: 100px;
+}
+
+.testi-text
+{
+  width: 80%;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.map {
+  height: 500px;
+}
+
+@media (max-width: 640px) {
+  .map {
+    height: 200px;
+  }
+}
+
+@media (min-width: 960px) {
+
+}
+
+@media (min-width: 1100px) {
+
+}
