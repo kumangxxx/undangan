@@ -19,6 +19,12 @@
     -o-background-size: cover;
 }
 
+.testi-featurette-image
+{
+  width: 128px;
+  height: 128px;
+}
+
 .testi-headline {
     padding: 120px 0;
 }
@@ -53,6 +59,10 @@
 
 .testi-featurette-heading {
     font-size: 50px;
+}
+
+@@media (max-width:1400px) {
+
 }
 
 @media(max-width:1200px) {
@@ -95,7 +105,7 @@
     }
 
     .testi-featurette-image {
-        max-width: 50%;
+        /*max-width: 50%;*/
     }
 
     .testi-featurette-image.pull-left {
@@ -150,6 +160,12 @@
 
     .headline h2 {
         font-size: 30px;
+    }
+
+    .testi-featurette-image
+    {
+      width: 64px;
+      height: 64px;
     }
 }
 
