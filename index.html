@@ -26,6 +26,15 @@
     <link href="css/one-page-wonder.css" rel="stylesheet">
     <link href="css/kumang.css" rel="stylesheet">
     <link href="css/jquery.countdown.css" rel="stylesheet">
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/parallax/parallax.min.js"></script>
+    <script src="js/rellax.min.js"></script>
+
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="bower_components/wow/dist/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -39,34 +48,36 @@
 <body id="page-top" class="index">
 
     <!-- Header -->
-    <header>
+    <header class="parallax">
         <div class="container">
             <div class="intro-text">
-                <!-- <div class="intro-lead-in">Welcome To Our Studio!</div>
-                <div class="intro-heading">It's Nice To Meet You</div>
-                <a href="#services" class="page-scroll btn btn-xl">Tell Me More</a> -->
-                <div class="intro-heading">Hey! You're invited!</div>
-                <div class="intro-lead-in">To our lovely weeding, please scroll down for details :)</div>
+                <div class="wow fadeInDown intro-heading">Hey! You're invited!</div>
+                <div class="wow fadeInUp intro-lead-in">To our lovely weeding, please scroll down for details :)</div>
             </div>
         </div>
+        <!-- <div class="behindWrapper">
+          <img src="img/banner.jpg" class="behindImage rellax"  data-rellax-speed="-4"/>
+        </div> -->
     </header>
+
+
 
     <!-- penganten -->
     <section id="penganten" class="bg-light-gray">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="wow fadeInUp col-lg-12 text-center">
                     <h2 class="section-heading">Pengantin</h2>
                     <h3 class="section-subheading text-muted">Yang berbahagia yada yada yada.</h3>
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-6">
+                <div class="wow fadeInLeft col-md-6">
                     <img src="img/ultraman-father.jpg" class="ava-pengantin" />
                     <h4 class="service-heading">Ultraman Father</h4>
                     <p class="text-muted">He's the father of ultraman (i think), how cool is that ? And he is color is red, means he is a badass. 10/ 10.</p>
                 </div>
-                <div class="col-md-6">
+                <div class="wow fadeInRight col-md-6">
                     <img src="img/ultraman-mother.jpg" class="ava-pengantin" />
                     <h4 class="service-heading">Ultraman Mother</h4>
                     <p class="text-muted">Mother of ultraman ? idk. DO NOT google her. I warned you.</p>
@@ -75,29 +86,53 @@
         </div>
     </section>
 
-    <section id="tanggal">
+    <!-- wali -->
+    <section id="penganten">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="wow fadeInUp col-lg-12 text-center">
+                    <h2 class="section-heading">The happy couple parents</h2>
+                    <h3 class="section-subheading text-muted">Yang berbahagia yada yada yada.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="wow fadeInLeft col-md-6">
+                  <img src="img/ultraman-father.jpg" class="ava-parent" />
+                  <img src="img/ultraman-mother.jpg" class="ava-parent" />
+                  <h4 class="service-heading">Pasangan Bapak Ultraman Father dan Ibu Ultraman Mother</h4>
+                </div>
+                <div class="wow fadeInRight col-md-6">
+                  <img src="img/ultraman-father.jpg" class="ava-parent" />
+                  <img src="img/ultraman-mother.jpg" class="ava-parent" />
+                  <h4 class="service-heading">Pasangan Bapak Ultraman Father dan Ibu Ultraman Mother</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tanggal" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="wow fadeInUp col-lg-12 text-center">
                     <h2 class="section-heading">Kapan ?</h2>
                     <h3 class="section-subheading text-muted">Resepsi akan dimulai pada tanggal 32 Agustus 2016 pukul 10.00 sampai dengan selesai.</h3>
                 </div>
             </div>
             <div class="row timer">
-                <div class="col-lg-12 text-center">
+                <div class="wow fadeIn col-lg-12 text-center">
                     <div id="countdown"></div>
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-4">
+                <div class="wow fadeInUp col-md-4">
                     <h4 class="service-heading">Lamaran</h4>
                     <p class="text-muted">Proses telah lamaran dilakukan di kediaman ultraman pada tanggal 11 Januari bertemu, menjalani kisah cinta ini..</p>
                 </div>
-                <div class="col-md-4">
+                <div class="wow fadeInUp col-md-4">
                     <h4 class="service-heading">Akad</h4>
                     <p class="text-muted">Akad nikah akan dilakukan pada tanggal 32 September 2016 pukul 7 pagi.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="wow fadeInUp col-md-4">
                     <h4 class="service-heading">Resepsi</h4>
                     <p class="text-muted">Resepsi akan digelar pada tanggal 32 September 2016 pukul 10 pagi.</p>
                 </div>
@@ -105,10 +140,10 @@
         </div>
     </section>
 
-     <section id="lokasi" class="bg-light-gray">
+     <section id="lokasi">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="wow fadeInUp col-lg-12 text-center">
                     <h2 class="section-heading">Dimanah ?</h2>
                     <h3 class="section-subheading text-muted">Resepsi akan digelar di gedung di Bandung.</h3>
                 </div>
@@ -140,7 +175,7 @@
                       infowindow.open(map,marker);
 
                       var gmap_canvas = document.getElementById('gmap_canvas');
-                      gmap_canvas.on('click', onMapClickHandler);
+                      // gmap_canvas.on('click', onMapClickHandler);
                     }
 
                     google.maps.event.addDomListener(window, 'load', init_map);
@@ -148,15 +183,15 @@
                 </div>
             </div>
             <div class="row text-center">
-                <div class="col-md-4">
+                <div class="wow fadeInLeft col-md-4">
                     <h4 class="service-heading">Lamaran</h4>
                     <p class="text-muted">Dilakukan dirumah. Dirumah siapa ga tau saya juga. Biar dua baris.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="wow fadeInUp col-md-4">
                     <h4 class="service-heading">Akad</h4>
                     <p class="text-muted">Di mesjid. Deket tempat resepsi. Harusnya mah sih.</p>
                 </div>
-                <div class="col-md-4">
+                <div class="wow fadeInRight col-md-4">
                     <h4 class="service-heading">Resepsi</h4>
                     <p class="text-muted">Gedung ABCD. Jl Baker Street 221b. Itu ada da di peta, liat aja.</p>
                 </div>
@@ -165,203 +200,161 @@
     </section>
 
     <!-- About Section -->
-    <section id="story">
+    <section id="story" class="bg-light-gray">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="wow fadeInUp col-lg-12 text-center">
                     <h2 class="section-heading">Kisah Kitah</h2>
                     <h3 class="section-subheading text-muted">#tsaaah</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/babykal-el.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>circa 2009</h4>
-                                    <h4 class="subheading">Kal-el came to earth</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/zod.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">Captain Zod came to earth</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/batmanvsuperman.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Batman kicked Superman's ass</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/doomsday.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Doomsday was born</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/supermanisdead.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2014</h4>
-                                    <h4 class="subheading">Superman dead.</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+            <h3>VIDEO</h3>
         </div>
     </section>
 
-    <section id="testimoni" class="bg-light-gray">
-      <div class="container">
-          <div class="row">
-              <div class="col-lg-12 text-center">
-                  <h2 class="section-heading">#Buzzes</h2>
-                  <h3 class="section-subheading text-muted">Thanks for the support! <3 you all!</h3>
+    <section id="story">
+        <div class="container">
+            <div class="row">
+                <div class="wow fadeInUp col-lg-12 text-center">
+                    <h2 class="section-heading">Buzzez</h2>
+                    <h3 class="section-subheading text-muted">Thanks for the support! <3 you all!</h3>
+                </div>
+            </div>
+            <div class="row" style="margin-top : 20px;">
+              <div class="wow fadeInUp testimoni">
+                <div class="timeline-image testi-item">
+                    <img class="img-circle img-responsive" src="img/babykal-el.jpg" alt="">
+                </div>
+                <div class="testi-title testi-item">
+                  <h4>Siti Agi Nayangisya</h4>
+                </div>
+                <br class="clearboth"/>
+                <p align="justify" class="text-muted testi-text">Assalamualaykum wr wb. Alhamdulillah alhamdulillah alhamdulillah. Aaaakkkk Akhirnya, selamat, ah! Speechless. Barakallah Robiyanti!!! Harus samawa yaaaaak aamiin! Kamu berhak mendapatkan ini!!! Keren mantap! Tepat sasaran haha. Gatau deh Yan speechless! Pokoknya selamat sekali lagi melepas kelajangan ini dan menyempurnakan separuh agamamu! Doakan saudara mu ini selalu diberikan rencana yang terbaik dari dan oleh Allah. Yap dan rencana Allah mmg takjub!</p>
+                <hr class="testi-divider" />
               </div>
-          </div>
-          <!-- First Featurette -->
-          <div class="testi-featurette" id="services">
-              <img class="testi-featurette-image img-circle img-responsive pull-left" src="http://placehold.it/100x100">
-              <h5>Siti agi nayangisya</h5>
-              <p align="justify" class="text-muted">Assalamualaykum wr wb. Alhamdulillah alhamdulillah alhamdulillah. Aaaakkkk Akhirnya, selamat, ah! Speechless. Barakallah Robiyanti!!! Harus samawa yaaaaak aamiin! Kamu berhak mendapatkan ini!!! Keren mantap! Tepat sasaran haha. Gatau deh Yan speechless! Pokoknya selamat sekali lagi melepas kelajangan ini dan menyempurnakan separuh agamamu! Doakan saudara mu ini selalu diberikan rencana yang terbaik dari dan oleh Allah. Yap dan rencana Allah mmg takjub!</p>
-          </div>
-
-          <div class="testi-featurette-divider"></div>
-
-          <div class="testi-featurette text-right" id="about">
-              <img class="testi-featurette-image img-circle img-responsive pull-right" src="http://placehold.it/100x100">
-              <h5>Anita Wulandari</h5>
-              <p align="justify" class="text-muted">Assalamualaikum wr wb. Jadi ceritanya saya punya temen, orangnya itu sedikit agak kurang kalem, kalau lagi ngomongin urutan nikah, gak pernah kepikiran kalau dia dapet urutan ketiga setelah detin dan fitri, belum kebayang aja gimana dia kalau jadi istri orang, bahkan seseorang sampe pernah bercanda dia akan koprol dari rancaekek ke sekeloa kalau si perempuan yang agak-sedikit-kurang-kalem ini menikah dalam waktu dekat. Daaannnnnn jeng jeng jeng...di nikahan fitri tiba2 ada yang pake ornamen baru di jari manis :') kaget, seneng, dan yang pasti bangga!!! Kyaaaaaaaaa robiyantikuuuu teman pertama ketika dulu ngumpul2 persiapan PAB, baru kenalan udah bikin ketawa ga berhenti berhenti, temen belajar bareng sooca dan segala perintilan ujian ujian, temen yang gak pernah gak bikin ketawa, dari mulai outfit rok ngatung sampe sekarang udh mau jadi istri orang :') kyaaaa kyaaaaa yanti :') niatnya pengen bikin kata kata romantis tapi apa daya...dan sekarang saya cuma bisa menaburkan banyak doa semoga kelak menjadi keluarga yang selalu diberkahi Allah, dilimpahkan kebahagiaan, dan pintu kebaikan semakin terbuka lebar. Dan terakhir semoga setelah menikah bisa bedain mana Purwakarta dan mana Purwokerto. Dan satu lagi, kalau mau beliin minuman buat ibu2 di bis, coba diperhatiin dulu kira2 itu ibunya si tukang minum asongan itu apa bukan. Ya cukup sekian kata kata pengantar dari saya. Semoga bisa turut mengantarkan kamu untuk segera mendoakan saya. Ya cukup sekian dan terimakasih. Wassalamualaikum wr wb.</p>
-          </div>
-
-          <div class="testi-featurette-divider"></div>
-
-          <div class="testi-featurette" id="services">
-              <img class="testi-featurette-image img-circle img-responsive pull-left" src="img/testi/testi-grace.jpeg">
-              <h5>Gracety Shabrina</h5>
-              <p align="justify" class="text-muted">Seindah apapun huruf terukir, Dapatkah ia dimengerti jika tak ada spasi? Begitu jugalah persahabatan kita? Spasi berhasil membuat Rindu jadi Temu. Spasi membuat kita mengerti untuk tak saling melekat, tapi hati yang diam2 mendekat. Inilah Robiyanti, sahabat satu rupa, -orang bilang sih begitu-. Jangan lupa Patkay ya Sungokong! Terimakasih, karena seorang yanti akan 'marah' ketika aku salah hilang arah.. Karen seorang yanti, tak kan berhenti memperingati hingga aku kembali. Selamat atas kesabaranmu yang dibayar Tunai oleh Tuhan. Selamat Berjoeang! <br/>-dari Sunggokong untuk Patkay-</p>
-          </div>
-
-          <div class="testi-featurette-divider"></div>
-
-          <div class="testi-featurette text-right" id="about">
-              <img class="testi-featurette-image img-circle img-responsive pull-right" src="http://placehold.it/100x100">
-              <h5>Unknown</h5>
-              <p align="justify" class="text-muted">Yanti sama Dindin tuh saling melengkapi, Dindin dengan sifatnya yang super kalem dan Yanti yang super energetic ngebuat mereka jadi pasangan yang bakal seru bangettt. Barakallah ya Din, Yan semoga langgeng di dunia dan dipertemukan lagi di surgaNya, aamiin :")</p>
-          </div>
-
-          <div class="testi-featurette-divider"></div>
-
-          <!-- First Featurette -->
-          <div class="testi-featurette" id="services">
-              <img class="testi-featurette-image img-circle img-responsive pull-left" src="http://placehold.it/100x100">
-              <h5>Unknown 2</h5>
-              <p align="justify" class="text-muted">Yanti & Dindin, dua orang FIM KECE yang super duper ga disangka tapi Allah telah mentakdirkan mereka berdua untuk membangun rumah tangga dalam melahirkan keluarga pasangan murni FIM. Azekk. Awalnya shocked banget, tapi kegercepan Dindin emang luar biasa sih kereeen. Cocok pisan duaduanya sama-sama pembelajar dan selalu menginspirasi aku untuk selalu menjadi pribadi yang lebih baik. Semoga kalian bisa menjadi keluarga penuh berkah, sakinah, mawadah, warohmah yah. Keep Muda, Gaya, Berbahaya pokoknya! :)</p>
-          </div>
-
-          <div class="testi-featurette-divider"></div>
-
-          <div class="testi-featurette text-right" id="about">
-              <img class="testi-featurette-image img-circle img-responsive pull-right" src="http://placehold.it/100x100">
-              <h5>Intan</h5>
-              <p align="justify" class="text-muted">Robiyanti, berisik, gandeng, gabisa diem, gabisa dalam keadaan sepi dan hening. Kaya bola bekel tapi sangat posesif dan sangat peduli sama sahabatnya. Rapi, pencair suasana,  perhatian, sayang keluarga, dan keibuan. Pemimpi, visioner, mobilitas tinggi, dan konseptor. Beruntunglah seorang ikhwan yang akan menjadi imam dalam kehidupannya. Sosok yang akan mendampingi dalam perjuangan hidup seorang dindin, dan sosok yang akan selalu menghangatkan sebuah keluarga kecil yang dipenuhi oleh warna. Selamat berjuang dalam bahtera rumah tangga, dan semangat membangun kehidupan dan peradaban yang madani dear "robiyanto dan dindin" :)</p>
-          </div>
-
-          <div class="testi-featurette-divider"></div>
-
-          <!-- First Featurette -->
-          <div class="testi-featurette" id="services">
-              <img class="testi-featurette-image img-circle img-responsive pull-left" src="http://placehold.it/100x100">
-              <h5>Dede</h5>
-              <p align="justify" class="text-muted">Ro-bi-yan-ti, Si bola bekel, bebek, gak mau diem. Pertama tau yanti itu pas ospek fakultas, gegara doi pas eval di panggil ke depan karena ngomongin CO (komisi disiplin) kaya "be a man!" Wkwk. Ngakak banget beneran yan, kalau lagi gak eval mah udah ketawa meureun Wkwk. Yanti seperti yang banyak orang tau itu orangnya bodor, lucu, suka becanda, ceria, cheerfull dan suka out of the box, bahkan out of logika, diluar pikiran manusia wkwk. Tapi yang jarang banyak orang tau dibalik keceriaannya yanti itu orangnya tegar, kuat dan dewasa. Pas denger cerita perjuangan dari SMA sampai sekarang, seribu jempol, dan sejuta decak kagum buat Yanti. Beruntung banget seseorang yang sudah menjadikan yanti sebagai pelengkap separuh agamanya. Yanti selalu ingin belajar lebih dan lebih baik lagi. Jaga Yanti ya din. Yanti is more precious than how people are thinking. Barokallohu robbuna wabaroka bainakuma fii khair yan, din. Semoga kalian menjadi pasangan yang saling melengkapi, saling menjaga, saling melindungi dan saling menghiasi layaknya pakaian. Semoga Allah meridhoi kalian sampai jannahnya, dijadikan rumah tangga yang menenangkan. Aamiin. This is the most concrete thing you're doing yan wkwk.<br/>Kind regards, <br/>Dede :)</p>
-          </div>
-
-          <div class="testi-featurette-divider"></div>
-
-          <div class="testi-featurette text-right" id="about">
-              <img class="testi-featurette-image img-circle img-responsive pull-right" src="http://placehold.it/100x100">
-              <h5>Nita</h5>
-              <p align="justify" class="text-muted">Kalau kata Nazrul Alam "menunggu hanyalah tentang keyakinan, keyakinan bahwa setiap orang punya saat yang paling tepat, dan punya waktu baiknya masing-masing", penantian itu ibaratnya "ruang tunggu", tergantung setiap orang akan mengisinya dengan seperti apa, jangan hanya menyibukkan dengan menpercantik diri karena hal itu hanya fana, tapi percantiklah hati dan akhlas karena itu akan abadi. Satu kata yang sampai saat ini masih terngiang "Allah dulu, Allah lagi, Allah terus", selamat telah berhasil melewati ruang tunggu dengan makin dekat dengan Allah. Lancar untuk segalanya buat Yanti dan Dindin. semoga Allah selalu memudahkan urusan kalian amiin.</p>
-          </div>
-
-          <div class="testi-featurette-divider"></div>
-
-          <!-- First Featurette -->
-          <div class="testi-featurette" id="services">
-              <img class="testi-featurette-image img-circle img-responsive pull-left" src="http://placehold.it/100x100">
-              <h5>Detin Nitami</h5>
-              <p align="justify" class="text-muted">Robiyanti, kesayangan semua orang. Pemilik kepribadian yang membuat orang bahagia. Gak percaya akan secepat ini memutuskan menikah. Orang yang punya visi jauh kedepan, penuh cita-cita tinggi, tapi menyadari kodratnya sebagai wanita dan hamba Allah. Menyegerakan pernikahan mengikuti sunnah rasulnya. Semoga Allah memberkahi pernikahanmu, meninggikan derajatmu, menguatkan ibadahmu. Selamat (menuju) menikah, Robiyanti..</p>
-          </div>
-
-          <div class="testi-featurette-divider"></div>
-
-          <div class="testi-featurette text-right" id="about">
-              <img class="testi-featurette-image img-circle img-responsive pull-right" src="http://placehold.it/100x100">
-              <h5>Rahadian Ahmad 2</h5>
-              <p class="text-muted">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-
-
-
-          <div class="testi-featurette-divider"></div>
-
-          <!-- First Featurette -->
-          <div class="testi-featurette" id="services">
-              <img class="testi-featurette-image img-circle img-responsive pull-left" src="http://placehold.it/100x100">
-              <h5>Rahadian Ahmad</h5>
-              <p class="text-muted">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-
-          <div class="testi-featurette-divider"></div>
-
-          <div class="testi-featurette text-right" id="about">
-              <img class="testi-featurette-image img-circle img-responsive pull-right" src="http://placehold.it/100x100">
-              <h5>Rahadian Ahmad 2</h5>
-              <p class="text-muted">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-          </div>
-
-      </div>
+              <div class="wow fadeInUp testimoni">
+                <div class="timeline-image testi-item">
+                    <img class="img-circle img-responsive" src="img/babykal-el.jpg" alt="">
+                </div>
+                <div class="testi-title testi-item">
+                  <h4>Gracety Shabrina</h4>
+                </div>
+                <br class="clearboth"/>
+                <p align="justify" class="text-muted testi-text">Seindah apapun huruf terukir, Dapatkah ia dimengerti jika tak ada spasi? Begitu jugalah persahabatan kita? Spasi berhasil membuat Rindu jadi Temu. Spasi membuat kita mengerti untuk tak saling melekat, tapi hati yang diam2 mendekat. Inilah Robiyanti, sahabat satu rupa, -orang bilang sih begitu-. Jangan lupa Patkay ya Sungokong! Terimakasih, karena seorang yanti akan 'marah' ketika aku salah hilang arah.. Karen seorang yanti, tak kan berhenti memperingati hingga aku kembali. Selamat atas kesabaranmu yang dibayar Tunai oleh Tuhan. Selamat Berjoeang! <br/>-dari Sunggokong untuk Patkay-</p>
+                <hr class="testi-divider" />
+              </div>
+              <div class="wow fadeInUp testimoni">
+                <div class="timeline-image testi-item">
+                    <img class="img-circle img-responsive" src="img/babykal-el.jpg" alt="">
+                </div>
+                <div class="testi-title testi-item">
+                  <h4>Unknown (Ini siapa ini ??)</h4>
+                </div>
+                <br class="clearboth"/>
+                <p align="justify" class="text-muted testi-text">Yanti sama Dindin tuh saling melengkapi, Dindin dengan sifatnya yang super kalem dan Yanti yang super energetic ngebuat mereka jadi pasangan yang bakal seru bangettt. Barakallah ya Din, Yan semoga langgeng di dunia dan dipertemukan lagi di surgaNya, aamiin :")</p>
+                <hr class="testi-divider" />
+              </div>
+              <div class="wow fadeInUp testimoni">
+                <div class="timeline-image testi-item">
+                    <img class="img-circle img-responsive" src="img/babykal-el.jpg" alt="">
+                </div>
+                <div class="testi-title testi-item">
+                  <h4>Unknown 2</h4>
+                </div>
+                <br class="clearboth"/>
+                <p align="justify" class="text-muted testi-text">Yanti & Dindin, dua orang FIM KECE yang super duper ga disangka tapi Allah telah mentakdirkan mereka berdua untuk membangun rumah tangga dalam melahirkan keluarga pasangan murni FIM. Azekk. Awalnya shocked banget, tapi kegercepan Dindin emang luar biasa sih kereeen. Cocok pisan duaduanya sama-sama pembelajar dan selalu menginspirasi aku untuk selalu menjadi pribadi yang lebih baik. Semoga kalian bisa menjadi keluarga penuh berkah, sakinah, mawadah, warohmah yah. Keep Muda, Gaya, Berbahaya pokoknya! :)</p>
+                <hr class="testi-divider" />
+              </div>
+              <div class="wow fadeInUp testimoni">
+                <div class="timeline-image testi-item">
+                    <img class="img-circle img-responsive" src="img/babykal-el.jpg" alt="">
+                </div>
+                <div class="testi-title testi-item">
+                  <h4>Intan</h4>
+                </div>
+                <br class="clearboth"/>
+                <p align="justify" class="text-muted testi-text">Robiyanti, berisik, gandeng, gabisa diem, gabisa dalam keadaan sepi dan hening. Kaya bola bekel tapi sangat posesif dan sangat peduli sama sahabatnya. Rapi, pencair suasana,  perhatian, sayang keluarga, dan keibuan. Pemimpi, visioner, mobilitas tinggi, dan konseptor. Beruntunglah seorang ikhwan yang akan menjadi imam dalam kehidupannya. Sosok yang akan mendampingi dalam perjuangan hidup seorang dindin, dan sosok yang akan selalu menghangatkan sebuah keluarga kecil yang dipenuhi oleh warna. Selamat berjuang dalam bahtera rumah tangga, dan semangat membangun kehidupan dan peradaban yang madani dear "robiyanto dan dindin" :)</p>
+                <hr class="testi-divider" />
+              </div>
+              <div class="wow fadeInUp testimoni">
+                <div class="timeline-image testi-item">
+                    <img class="img-circle img-responsive" src="img/babykal-el.jpg" alt="">
+                </div>
+                <div class="testi-title testi-item">
+                  <h4>Nita</h4>
+                </div>
+                <br class="clearboth"/>
+                <p align="justify" class="text-muted testi-text">Kalau kata Nazrul Alam "menunggu hanyalah tentang keyakinan, keyakinan bahwa setiap orang punya saat yang paling tepat, dan punya waktu baiknya masing-masing", penantian itu ibaratnya "ruang tunggu", tergantung setiap orang akan mengisinya dengan seperti apa, jangan hanya menyibukkan dengan menpercantik diri karena hal itu hanya fana, tapi percantiklah hati dan akhlas karena itu akan abadi. Satu kata yang sampai saat ini masih terngiang "Allah dulu, Allah lagi, Allah terus", selamat telah berhasil melewati ruang tunggu dengan makin dekat dengan Allah. Lancar untuk segalanya buat Yanti dan Dindin. semoga Allah selalu memudahkan urusan kalian amiin.</p>
+                <hr class="testi-divider" />
+              </div>
+              <div class="wow fadeInUp testimoni">
+                <div class="timeline-image testi-item">
+                    <img class="img-circle img-responsive" src="img/babykal-el.jpg" alt="">
+                </div>
+                <div class="testi-title testi-item">
+                  <h4>Detin Nitami</h4>
+                </div>
+                <br class="clearboth"/>
+                <p align="justify" class="text-muted testi-text">Robiyanti, kesayangan semua orang. Pemilik kepribadian yang membuat orang bahagia. Gak percaya akan secepat ini memutuskan menikah. Orang yang punya visi jauh kedepan, penuh cita-cita tinggi, tapi menyadari kodratnya sebagai wanita dan hamba Allah. Menyegerakan pernikahan mengikuti sunnah rasulnya. Semoga Allah memberkahi pernikahanmu, meninggikan derajatmu, menguatkan ibadahmu. Selamat (menuju) menikah, Robiyanti..</p>
+                <hr class="testi-divider" />
+              </div>
+              <div class="wow fadeInUp testimoni">
+                <div class="timeline-image testi-item">
+                    <img class="img-circle img-responsive" src="img/babykal-el.jpg" alt="">
+                </div>
+                <div class="testi-title testi-item">
+                  <h4>Langgam Bagaspratomo</h4>
+                </div>
+                <br class="clearboth"/>
+                <p align="justify" class="text-muted testi-text">Dindin itu sosok yang ramah, sahabat yang baik, serta senantiasa mengingatkan pada kebaikan. Beruntunglah wanita yang akan diimaminya. Semoga menjadi pasangan buat di dunia dan akhirat. Barakallahu lakuma wa baraka alaikuma wa jamaah bainakuma fii khair.</p>
+                <hr class="testi-divider" />
+              </div>
+              <div class="wow fadeInUp testimoni">
+                <div class="timeline-image testi-item">
+                    <img class="img-circle img-responsive" src="img/babykal-el.jpg" alt="">
+                </div>
+                <div class="testi-title testi-item">
+                  <h4>Idris Suryadireja</h4>
+                </div>
+                <br class="clearboth"/>
+                <p align="justify" class="text-muted testi-text">"Halalkan atau tinggalkan", Sebuah pilihan yang memang harus diambil, ternyata Dindin begitu cepat memilih menghalalkan untuk menjemput rizki dan keridhaan Allah. Sahabatmu mendukung pernikahanmu dan tunjukkan tingkatan cinta yang sebenarnya :D. Yang selalu melihatmu tertidur di kelas.</p>
+                <hr class="testi-divider" />
+              </div>
+              <div class="wow fadeInUp testimoni">
+                <div class="timeline-image testi-item">
+                    <img class="img-circle img-responsive" src="img/babykal-el.jpg" alt="">
+                </div>
+                <div class="testi-title testi-item">
+                  <h4>Anita Wulandari</h4>
+                </div>
+                <br class="clearboth"/>
+                <p align="justify" class="text-muted testi-text">Assalamualaikum wr wb. Jadi ceritanya saya punya temen, orangnya itu sedikit agak kurang kalem, kalau lagi ngomongin urutan nikah, gak pernah kepikiran kalau dia dapet urutan ketiga setelah detin dan fitri, belum kebayang aja gimana dia kalau jadi istri orang, bahkan seseorang sampe pernah bercanda dia akan koprol dari rancaekek ke sekeloa kalau si perempuan yang agak-sedikit-kurang-kalem ini menikah dalam waktu dekat. Daaannnnnn jeng jeng jeng...di nikahan fitri tiba2 ada yang pake ornamen baru di jari manis :') kaget, seneng, dan yang pasti bangga!!! Kyaaaaaaaaa robiyantikuuuu teman pertama ketika dulu ngumpul2 persiapan PAB, baru kenalan udah bikin ketawa ga berhenti berhenti, temen belajar bareng sooca dan segala perintilan ujian ujian, temen yang gak pernah gak bikin ketawa, dari mulai outfit rok ngatung sampe sekarang udh mau jadi istri orang :') kyaaaa kyaaaaa yanti :') niatnya pengen bikin kata kata romantis tapi apa daya...dan sekarang saya cuma bisa menaburkan banyak doa semoga kelak menjadi keluarga yang selalu diberkahi Allah, dilimpahkan kebahagiaan, dan pintu kebaikan semakin terbuka lebar. Dan terakhir semoga setelah menikah bisa bedain mana Purwakarta dan mana Purwokerto. Dan satu lagi, kalau mau beliin minuman buat ibu2 di bis, coba diperhatiin dulu kira2 itu ibunya si tukang minum asongan itu apa bukan. Ya cukup sekian kata kata pengantar dari saya. Semoga bisa turut mengantarkan kamu untuk segera mendoakan saya. Ya cukup sekian dan terimakasih. Wassalamualaikum wr wb.</p>
+                <hr class="testi-divider" />
+              </div>
+              <div class="wow fadeInUp testimoni">
+                <div class="timeline-image testi-item">
+                    <img class="img-circle img-responsive" src="img/babykal-el.jpg" alt="">
+                </div>
+                <div class="testi-title testi-item">
+                  <h4>Dede</h4>
+                </div>
+                <br class="clearboth"/>
+                <p align="justify" class="text-muted testi-text">Ro-bi-yan-ti, Si bola bekel, bebek, gak mau diem. Pertama tau yanti itu pas ospek fakultas, gegara doi pas eval di panggil ke depan karena ngomongin CO (komisi disiplin) kaya "be a man!" Wkwk. Ngakak banget beneran yan, kalau lagi gak eval mah udah ketawa meureun Wkwk. Yanti seperti yang banyak orang tau itu orangnya bodor, lucu, suka becanda, ceria, cheerfull dan suka out of the box, bahkan out of logika, diluar pikiran manusia wkwk. Tapi yang jarang banyak orang tau dibalik keceriaannya yanti itu orangnya tegar, kuat dan dewasa. Pas denger cerita perjuangan dari SMA sampai sekarang, seribu jempol, dan sejuta decak kagum buat Yanti. Beruntung banget seseorang yang sudah menjadikan yanti sebagai pelengkap separuh agamanya. Yanti selalu ingin belajar lebih dan lebih baik lagi. Jaga Yanti ya din. Yanti is more precious than how people are thinking. Barokallohu robbuna wabaroka bainakuma fii khair yan, din. Semoga kalian menjadi pasangan yang saling melengkapi, saling menjaga, saling melindungi dan saling menghiasi layaknya pakaian. Semoga Allah meridhoi kalian sampai jannahnya, dijadikan rumah tangga yang menenangkan. Aamiin. This is the most concrete thing you're doing yan wkwk.<br/>Kind regards, <br/>Dede :)</p>
+                <hr class="testi-divider" />
+              </div>
+              <div class="wow fadeInUp testimoni">
+                <div class="timeline-image testi-item">
+                    <img class="img-circle img-responsive" src="img/babykal-el.jpg" alt="">
+                </div>
+                <div class="testi-title testi-item">
+                  <h4>Some name</h4>
+                </div>
+                <br class="clearboth"/>
+                <p align="justify" class="text-muted testi-text">Assalamualaykum wr wb. Alhamdulillah alhamdulillah alhamdulillah. Aaaakkkk Akhirnya, selamat, ah! Speechless. Barakallah Robiyanti!!! Harus samawa yaaaaak aamiin! Kamu berhak mendapatkan ini!!! Keren mantap! Tepat sasaran haha. Gatau deh Yan speechless! Pokoknya selamat sekali lagi melepas kelajangan ini dan menyempurnakan separuh agamamu! Doakan saudara mu ini selalu diberikan rencana yang terbaik dari dan oleh Allah. Yap dan rencana Allah mmg takjub!</p>
+                <hr class="testi-divider" />
+              </div>
+            </div>
+        </div>
     </section>
 
     <footer>
@@ -399,7 +392,6 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
     <script src="js/jquery.countdown.js"></script>
     <script>
     $(function(){
@@ -435,6 +427,9 @@
 
     <!-- Theme JavaScript -->
     <script src="js/agency.min.js"></script>
+    <script>
+    var rellax = new Rellax('.rellax');
+    </script>
 
 </body>
 

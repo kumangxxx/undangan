@@ -1,0 +1,33 @@
+{
+  "name": "wow",
+  "homepage": "https://github.com/graingert/WOW",
+  "authors": [
+    "Thomas Grainger <wow.js@graingert.co.uk>"
+  ],
+  "description": "Reveal CSS animation as you scroll down a page.",
+  "main": "dist/wow.js",
+  "keywords": [
+    "scroll",
+    "animation",
+    "reveal"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "1.2.0",
+  "_release": "1.2.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "1.2.0",
+    "commit": "f25e5d7b252a4f4b394bd8c5397e7c4066c3fe6f"
+  },
+  "_source": "https://github.com/graingert/WOW.git",
+  "_target": "^1.2.0",
+  "_originalSource": "wow-mit",
+  "_direct": true
+}
