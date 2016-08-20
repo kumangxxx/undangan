@@ -1,5 +1,7 @@
 .ava-pengantin {
   border-radius: 50%;
+  width: 400px;
+  height: 400px;
 }
 
 .ava-parent {
@@ -9,6 +11,33 @@
   height: 200px;
 }
 
+.ava-testi {
+  border-radius: 50%;
+  margin: 10px;
+  margin-top: 26px;
+  width: 64px;
+  height: 64px;
+  opacity: 0.2;
+  -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
+.slick-center .ava-testi {
+  border-radius: 50%;
+  margin: 10px;
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+  -webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+
 .icon-timer {
   width: 50%;
   height: 50%;
@@ -16,8 +45,8 @@
 }
 
 section {
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .timer {
@@ -110,13 +139,15 @@ header {
   height: 500px;
 }
 
-@media (max-width: 640px) {
-  .map {
-    height: 200px;
-  }
-}
+/*.rusuh {
+  vertical-align: middle;
+  display: table-cell;
+  height: 100px;
+}*/
 
-@media (min-width: 960px) {
+.rusuh-content {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 @media (min-width: 1100px) {
@@ -131,6 +162,69 @@ header {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+  }
+}
+
+@media (min-width: 960px) {
+
+}
+
+@media (max-width: 640px) {
+  .map {
+    height: 200px;
+  }
+
+  .ava-testi {
+    border-radius: 50%;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .slick-center .ava-testi {
+    border-radius: 50%;
+    margin: 10px;
+    width: 64px;
+    height: 64px;
+  }
+
+  .ava-pengantin {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 320px) {
+
+  section {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .rusuh-content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .ava-testi {
+    border-radius: 50%;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .slick-center .ava-testi {
+    border-radius: 50%;
+    margin: 10px;
+    width: 64px;
+    height: 64px;
+  }
+
+  .ava-pengantin {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
   }
 }
 
@@ -153,4 +247,104 @@ header {
   background-color: red;
   top: 20px;
   position: relative;
+}
+
+.buzzes {
+  /*height: 200px;*/
+  padding-top: 40px;
+  padding-bottom: 0px;
+}
+
+@media (min-height: 400px) {
+  .buzzes {
+    /*height: 490px;*/
+    /*background-color: red;*/
+  }
+
+  .buzzes .slider {
+    /*height: 200px;*/
+    /*background-color: blue;*/
+  }
+
+  .buzzes .thumbnails {
+    overflow-y: scroll;
+    height: 130px;
+    background-color: red;
+  }
+}
+
+@media (min-height: 600px) {
+  .buzzes {
+    /*height: 690px;*/
+    /*background-color: green;*/
+  }
+
+  .buzzes .slider {
+    /*height: 320px;*/
+    /*background-color: blue;*/
+  }
+
+  .buzzes .thumbnails {
+    overflow-y: scroll;
+    height: 210px;
+    background-color: red;
+  }
+}
+
+@media (min-height: 960px) {
+  .buzzes {
+    /*height: 960px;*/
+    /*background-color: blue;*/
+  }
+
+  .buzzes .slider {
+    /*height: 440px;*/
+    /*background-color: blue;*/
+  }
+
+  .buzzes .thumbnails {
+    overflow-y: scroll;
+    height: 360px;
+    background-color: red;
+  }
+}
+
+@media (min-height: 1136px) {
+  .buzzes {
+    /*height: 1136px;*/
+    /*background-color: yellow;*/
+  }
+
+  .buzzes .slider {
+    /*height: 528px;*/
+    /*background-color: blue;*/
+  }
+
+  .buzzes .thumbnails {
+    overflow-y: scroll;
+    height: 448px;
+    background-color: red;
+  }
+}
+
+.slider-content {
+  height: 200px;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+}
+
+.slider-content .wrapper {
+  height: 200px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+::-webkit-scrollbar {
+  -webkit-appearance: none;
+  width: 7px;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, .5);
+  -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
 }
