@@ -1,3 +1,8 @@
+.text-muted {
+  /*color: #27414F;*/
+  color: #37627b;
+}
+
 .ava-pengantin {
   border-radius: 50%;
   width: 400px;
@@ -17,7 +22,7 @@
   margin-top: 26px;
   width: 64px;
   height: 64px;
-  opacity: 0.2;
+  opacity: 0.4;
   -webkit-transition: all 0.2s linear;
        -moz-transition: all 0.2s linear;
         -ms-transition: all 0.2s linear;
@@ -62,7 +67,6 @@ section {
 
 header {
   background-image: url('../img/banner.jpg');
-  color: white;
   /*float: left;*/
 }
 

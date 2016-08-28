@@ -238,7 +238,7 @@ header {
   color: white;
 }
 header .intro-text {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 header .intro-text .intro-lead-in {
@@ -256,10 +256,19 @@ header .intro-text .intro-heading {
   line-height: 50px;
   margin-bottom: 25px;
 }
+header .intro-text .intro-small {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+}
+
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 100px;
   }
   header .intro-text .intro-lead-in {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -280,10 +289,28 @@ header .intro-text .intro-heading {
 section {
   padding: 100px 0;
 }
+
+.peach-color {
+  color: #F5D6BD;
+}
+
+.blue-color {
+  color: #8ABCD7;
+}
+
+.peach-bg-color {
+  background: #F5D6BD;
+}
+
+.blue-bg-color {
+  background: #8ABCD7;
+}
+
 section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
   margin-bottom: 15px;
+  color: #203846;
 }
 section h3.section-subheading {
   font-size: 16px;
@@ -293,6 +320,11 @@ section h3.section-subheading {
   font-weight: 400;
   margin-bottom: 40px;
 }
+
+section h4 {
+  color: #203846;
+}
+
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
