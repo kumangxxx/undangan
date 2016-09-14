@@ -1,3 +1,7 @@
+.bannerimage {
+  width: 100%;
+}
+
 .text-muted {
   /*color: #27414F;*/
   /*color: #37627b;*/
@@ -66,7 +70,7 @@ section {
 }
 
 header {
-  background-image: url('../img/banner.jpg');
+  /*background-image: url('../img/banner3.jpg');*/
   /*float: left;*/
 }
 
