@@ -508,12 +508,13 @@ section h4 {
     float: left;
     padding: 0 20px 20px 30px;
     text-align: right;
+    margin-left: 20px;
   }
   .timeline > li .timeline-image {
-    width: 100px;
-    height: 100px;
+    /*width: 100px;
+    height: 100px;*/
     left: 50%;
-    margin-left: -50px;
+    margin-left: -42px;
   }
   .timeline > li .timeline-image h4 {
     font-size: 13px;
@@ -523,6 +524,7 @@ section h4 {
   .timeline > li.timeline-inverted > .timeline-panel {
     float: right;
     text-align: left;
+    /*margin-right: : -20px;*/
     padding: 0 30px 20px 20px;
   }
 }
@@ -534,9 +536,9 @@ section h4 {
     padding: 0 20px 20px;
   }
   .timeline > li .timeline-image {
-    width: 150px;
-    height: 150px;
-    margin-left: -75px;
+    /*width: 150px;
+    height: 150px;*/
+    margin-left: -40.5px;
   }
   .timeline > li .timeline-image h4 {
     font-size: 18px;
@@ -555,9 +557,9 @@ section h4 {
     padding: 0 20px 20px 100px;
   }
   .timeline > li .timeline-image {
-    width: 170px;
-    height: 170px;
-    margin-left: -85px;
+    /*width: 170px;
+    height: 170px;*/
+    margin-left: -42.5px;
   }
   .timeline > li .timeline-image h4 {
     margin-top: 40px;
