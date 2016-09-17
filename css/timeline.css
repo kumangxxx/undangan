@@ -8,8 +8,9 @@
   bottom: 0;
   position: absolute;
   content: " ";
-  width: 3px;
-  background-color: #eeeeee;
+  width: 2px;
+  /*background-color: #eeeeee;*/
+  background-color: #77777F;
   left: 40px;
   margin-left: -1.5px;
 }
@@ -36,6 +37,7 @@
 
 .timelinex > li > .timelinex-panel {
   float: left;
+  background-color: white;
   /*width: 40%;*/
   margin-left: 80px;
   border: 1px solid #d4d4d4;
@@ -163,10 +165,10 @@
     bottom: 0;
     position: absolute;
     content: " ";
-    width: 3px;
-    background-color: #eeeeee;
+    /*background-color: #eeeeee;*/
+    /*background-color: #212F30;*/
     left: 50%;
-    margin-left: -1.5px;
+    margin-left: -1px;
   }
 
   .timelinex > li.timelinex-inverted > .timelinex-panel {

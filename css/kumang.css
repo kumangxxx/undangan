@@ -74,6 +74,16 @@ header {
   /*float: left;*/
 }
 
+.defaultbg {
+  background-color: #212F30;
+}
+
+hr {
+  color: #212F30;
+  background-color: #212F30;
+  border-color: #212F30;
+}
+
 .behindWrapper {
   position: relative;
   top: -720px;
