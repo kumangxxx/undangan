@@ -178,6 +178,7 @@
   .timelinex > li > .timelinex-panel {
     width: 46%;
     float: left;
+    background-color: white;
     /*left: -30px;*/
     margin-left: 4px;
     border: 1px solid #d4d4d4;
